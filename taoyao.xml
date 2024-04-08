@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  	<project path="device/xiaomi/taoyao" remote="github" name="richardqcarvalho/device_xiaomi_taoyao" revision="fourteen" />
+	<project path="hardware/xiaomi" remote="github" name="PixelExperience/hardware_xiaomi" revision="fourteen" />
+	<project path="vendor/xiaomi/taoyao" remote="github" name="SMGReborn/vendor_xiaomi_taoyao" revision="udc-cherish" />
+	<project path="vendor/xiaomi/camera" remote="gitlab" name="vherawidatama/proprietary_vendor_xiaomi_camera" revision="udc" />
+
+	<project path="device/qcom/kernelscripts" remote="github" name="richardqcarvalho/device_qcom_kernelscripts" revision="taoyao-s-oss" />
+	<project path="kernel/xiaomi/taoyao" remote="github" name="MiCode/Xiaomi_Kernel_OpenSource" revision="taoyao-s-oss" />
+	<project path="kernel/xiaomi/taoyao/arch/arm64/boot/dts/vendor" remote="github" name="MiCode/kernel_devicetree" revision="taoyao-s-oss" />
+
+	<project path="prebuilts-master/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="master-kernel-build-2021" />
+	<project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="master-kernel-build-2021" />
+	<project path="prebuilts-master/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" revision="master-kernel-build-2021" />
+	<project path="prebuilts-master/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="master-kernel-build-2021" />
+	<project path="prebuilts-master/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="master-kernel-build-2021" />
+</manifest>
