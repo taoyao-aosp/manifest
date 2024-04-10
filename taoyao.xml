@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   	<project path="device/xiaomi/taoyao" remote="github" name="richardqcarvalho/device_xiaomi_taoyao" revision="fourteen" />
-	<project path="hardware/xiaomi" remote="github" name="PixelExperience/hardware_xiaomi" revision="fourteen" />
 	<project path="vendor/xiaomi/taoyao" remote="github" name="SMGReborn/vendor_xiaomi_taoyao" revision="udc-cherish" />
 	<project path="vendor/xiaomi/camera" remote="gitlab" name="vherawidatama/proprietary_vendor_xiaomi_camera" revision="udc" />
 
