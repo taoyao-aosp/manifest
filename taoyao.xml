@@ -2,7 +2,6 @@
 <manifest>
 	<remote name="github" fetch="https://github.com" />
 	<remote name="gitlab" fetch="https://gitlab.com" />
-	<remote name="clo-la" fetch="https://git.codelinaro.org/clo/la" />
 
   	<project path="device/xiaomi/taoyao" remote="github" name="richardqcarvalho/device_xiaomi_taoyao" revision="fourteen" />
 	<project path="vendor/xiaomi/taoyao" remote="github" name="SMGReborn/vendor_xiaomi_taoyao" revision="udc-cherish" />
