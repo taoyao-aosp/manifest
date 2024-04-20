@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remove-project name="platform/hardware/qcom/bootctrl" />
+	<remove-project name="platform/hardware/qcom/display" />
+	<remove-project name="platform/hardware/qcom/gps" />
+	<remove-project name="platform/hardware/qcom/media" />
+	<remove-project name="platform/hardware/qcom/wlan" />
+
     <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la" revision="dummy_revision" />
 
     <!-- System -->
