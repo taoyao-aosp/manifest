@@ -1,3 +1,3 @@
 ```
-git clone https://github.com/richardqcarvalho/taoyao_manifest.git .repo/local_manifests
+git clone https://github.com/richardqcarvalho/manifest.git .repo/local_manifests
 ```
