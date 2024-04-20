@@ -50,7 +50,7 @@
     <project remote="clo-la" name="device/qcom/sepolicy_vndr" path="device/qcom/sepolicy_vndr" revision="9609deaa0d6c90f9848fed6e2a161a6ac47d3cff" upstream="refs/heads/sepolicy.vndr.lnx.1.0.r39-rel"/>
     <project remote="clo-la" name="device/qcom/vendor-common" path="device/qcom/vendor-common" revision="e338190f35b670cff35bdf286d7ca2b4b6a3c2bc" upstream="refs/heads/qcom-devices.lnx.6.0.r67-rel"/>
     <project remote="clo-la" name="kernel/build" path="device/qcom/kernelscripts" revision="a96b429b8a16d78e1fe380520386acf95460ddab" upstream="refs/heads/kernel.lnx.5.4.r74-rel"/>
-    <project remote="clo-la" name="kernel/msm-5.4" path="kernel/msm-5.4" revision="4522ffe0d566ef9bce461d9cebad43a696ae7172" upstream="refs/heads/kernel.lnx.5.4.r74-rel" groups="cyborg"/>
+    <!-- <project remote="clo-la" name="kernel/msm-5.4" path="kernel/msm-5.4" revision="4522ffe0d566ef9bce461d9cebad43a696ae7172" upstream="refs/heads/kernel.lnx.5.4.r74-rel" groups="cyborg"/> -->
     <project remote="clo-la" name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="fcb02a82827392cf3fc761bf5cb06df91c37f1b4" upstream="refs/heads/audio-hal.lnx.8.0.r106-rel"/>
     <project remote="clo-la" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="a625c77e625f190dd01ba812f8f7b5e93b098838" upstream="refs/heads/android-core.lnx.6.0.r69-rel"/>
     <project remote="clo-la" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="3f51802bb254e4753bd20789ab45f09527752ee6" upstream="refs/heads/display.lnx.7.2.r1-rel">
@@ -74,11 +74,11 @@
         <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
     </project>
     <project remote="clo-la" name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="7d333fb9415ce10a293010fe32ffed7430f69396" upstream="refs/heads/nfc.vendor.lnx.2.0.r27-rel"/>
-    <project remote="clo-la" name="platform/vendor/opensource/audio-kernel" path="kernel/msm-5.4/techpack/audio" revision="903d4e16bc768228c51be32b2bae52f1cbd6b0da" upstream="refs/heads/audio-drivers.lnx.5.0.r75-rel" groups="cyborg"/>
-    <project remote="clo-la" name="platform/vendor/opensource/camera-kernel" path="kernel/msm-5.4/techpack/camera" revision="bad214e040d02f20b5ca8fcfcec84a279118ddfb" upstream="refs/heads/camera-css-kernel.lnx.4.0.r1-rel" groups="cyborg"/>
-    <project remote="clo-la" name="platform/vendor/opensource/dataipa" path="kernel/msm-5.4/techpack/dataipa" revision="6dacaee2a6e2a810e3cc6d1428f9334281ab0e11" upstream="refs/heads/data-kernel.lnx.1.1.r45-rel" groups="cyborg"/>
-    <project remote="clo-la" name="platform/vendor/opensource/display-drivers" path="kernel/msm-5.4/techpack/display" revision="306c3b3ec20ab0670b8d6e723b4b9a33bbd739c1" upstream="refs/heads/display-kernel.lnx.5.4.r22-rel" groups="cyborg"/>
-    <project remote="clo-la" name="platform/vendor/opensource/video-driver" path="kernel/msm-5.4/techpack/video" revision="b3eca417a5b1c627bd5e914f0d839555dd109f70" upstream="refs/heads/video-kernel.lahaina.lnx.1.0.r20-rel" groups="cyborg"/>
+    <!-- <project remote="clo-la" name="platform/vendor/opensource/audio-kernel" path="kernel/msm-5.4/techpack/audio" revision="903d4e16bc768228c51be32b2bae52f1cbd6b0da" upstream="refs/heads/audio-drivers.lnx.5.0.r75-rel" groups="cyborg"/> -->
+    <!-- <project remote="clo-la" name="platform/vendor/opensource/camera-kernel" path="kernel/msm-5.4/techpack/camera" revision="bad214e040d02f20b5ca8fcfcec84a279118ddfb" upstream="refs/heads/camera-css-kernel.lnx.4.0.r1-rel" groups="cyborg"/> -->
+    <!-- <project remote="clo-la" name="platform/vendor/opensource/dataipa" path="kernel/msm-5.4/techpack/dataipa" revision="6dacaee2a6e2a810e3cc6d1428f9334281ab0e11" upstream="refs/heads/data-kernel.lnx.1.1.r45-rel" groups="cyborg"/> -->
+    <!-- <project remote="clo-la" name="platform/vendor/opensource/display-drivers" path="kernel/msm-5.4/techpack/display" revision="306c3b3ec20ab0670b8d6e723b4b9a33bbd739c1" upstream="refs/heads/display-kernel.lnx.5.4.r22-rel" groups="cyborg"/> -->
+    <!-- <project remote="clo-la" name="platform/vendor/opensource/video-driver" path="kernel/msm-5.4/techpack/video" revision="b3eca417a5b1c627bd5e914f0d839555dd109f70" upstream="refs/heads/video-kernel.lahaina.lnx.1.0.r20-rel" groups="cyborg"/> -->
     <project remote="clo-la" name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" revision="1233dc0e44623738373737b922bf288a631d2d10" upstream="refs/heads/audio-hal.lnx.8.0.r106-rel"/>
     <project remote="clo-la" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="7bacf1b54f4f01856bc395981cb5df448798216f" upstream="refs/heads/data.lnx.6.0.r74-rel">
         <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
