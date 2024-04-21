@@ -8,8 +8,6 @@
 	<remove-project name="device/generic/art" />
 	<remove-project name="device/generic/car" />
 	<remove-project name="device/generic/common" />
-	<remove-project name="device/generic/goldfish" />
-	<remove-project name="device/generic/goldfish-opengl" />
 	<remove-project name="device/generic/mini-emulator-arm64" />
 	<remove-project name="device/generic/mini-emulator-armv7-a-neon" />
 	<remove-project name="device/generic/mini-emulator-x86" />
@@ -37,7 +35,6 @@
 	<remove-project name="device/google/gs101-sepolicy" />
 	<remove-project name="device/google/gs201" />
 	<remove-project name="device/google/gs201-sepolicy" />
-	<remove-project name="device/google/gs-common" />
 	<remove-project name="device/google/lynx" />
 	<remove-project name="device/google/lynx-kernel" />
 	<remove-project name="device/google/lynx-sepolicy" />
@@ -54,8 +51,6 @@
 	<remove-project name="device/google/tangorpro-sepolicy" />
 	<remove-project name="device/google/tangorpro-kernel" />
 	<remove-project name="device/google/vrservices" />
-	<remove-project name="device/google/zuma" />
-	<remove-project name="device/google/zuma-sepolicy" />
 	<remove-project name="device/google_car" />
 	<remove-project name="device/linaro/dragonboard" />
 	<remove-project name="device/linaro/dragonboard-kernel" />
@@ -68,9 +63,9 @@
 	<remote name="github" fetch="https://github.com" />
 	<remote name="gitlab" fetch="https://gitlab.com" />
 
-  	<project path="device/xiaomi/taoyao" remote="github" name="richardqcarvalho/device_xiaomi_taoyao" revision="fourteen" />
-	<project path="vendor/xiaomi/taoyao" remote="github" name="SMGReborn/vendor_xiaomi_taoyao" revision="udc-cherish" />
-	<project path="vendor/xiaomi/camera" remote="gitlab" name="vherawidatama/proprietary_vendor_xiaomi_camera" revision="udc" />
+  	<project path="device/xiaomi/taoyao" remote="github" name="richardqcarvalho/device_xiaomi_taoyao" revision="14" />
+	<project path="vendor/xiaomi/taoyao" remote="github" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="14" />
+	<!-- <project path="vendor/xiaomi/camera" remote="gitlab" name="vherawidatama/proprietary_vendor_xiaomi_camera" revision="udc" /> -->
 
 	<!-- <project path="device/qcom/kernelscripts" remote="github" name="richardqcarvalho/device_qcom_kernelscripts" revision="taoyao-s-oss" /> -->
 	<project path="kernel/xiaomi/taoyao" remote="github" name="richardqcarvalho/kernel_xiaomi_taoyao" revision="taoyao-s-oss" />
