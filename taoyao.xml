@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  	<project path="device/xiaomi/taoyao" remote="github" name="richardqcarvalho/device_xiaomi_taoyao" revision="14" />
-	<project path="vendor/xiaomi/taoyao" remote="github" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="14" />
+	<remote name="github" fetch="https://github.com" />
+	<remote name="gitlab" fetch="https://gitlab.com" />
+
+  	<project path="device/xiaomi/taoyao" remote="github" name="SMGReborn/decommon" revision="udc-pe" />
+  	<project path="device/xiaomi/taoyao-sepolicy" remote="github" name="richardqcarvalho/device_xiaomi_taoyao-sepolicy" revision="14" />
+	<project path="vendor/xiaomi/taoyao" remote="github" name="SMGReborn/vendor_xiaomi_taoyao" revision="udc-cherish" />
 	<project path="vendor/xiaomi/camera" remote="gitlab" name="vherawidatama/proprietary_vendor_xiaomi_camera" revision="udc" />
 
 	<project path="device/qcom/kernelscripts" remote="github" name="richardqcarvalho/device_qcom_kernelscripts" revision="14" />
@@ -9,7 +13,7 @@
 	<project path="kernel/xiaomi/taoyao/arch/arm64/boot/dts/vendor" remote="github" name="MiCode/kernel_devicetree" revision="taoyao-s-oss" />
 	<project path="vendor/qcom/opensource/wlan" remote="github" name="MiCode/vendor_qcom_opensource_wlan" revision="taoyao-s-oss" />
 
-	<project path="prebuilts-master/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" clone-depth="1" revision="c20752f1bf064a7e83387a10ba1a37311324771e" remote="github" />
+	<project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="master-kernel-build-2021" />
 	<project path="prebuilts-master/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" revision="master-kernel-build-2021" />
 	<project path="prebuilts-master/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="master-kernel-build-2021" />
 </manifest>
