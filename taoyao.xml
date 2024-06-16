@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remove-project path="hardware/qcom-caf/sm8350/display" />
-
 	<project path="kernel/xiaomi/sm8350" remote="github" name="redyao-taowood/android_kernel_xiaomi_sm8350" revision="lineage-21" clone-depth="1" />
 	<project path="vendor/xiaomi/sm8350-common" remote="github" name="redyao-taowood/proprietary_vendor_xiaomi_sm8350-common" revision="lineage-21" />
 	<project path="vendor/xiaomi/taoyao" remote="github" name="redyao-taowood/proprietary_vendor_xiaomi_taoyao" revision="lineage-21" />
