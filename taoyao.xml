@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="gitlab" fetch="https://gitlab.com" />
+	<remove-project path="hardware/qcom-caf/sm8350/display" />
 
-	<project path="kernel/xiaomi/sm8350" remote="github" name="redyao-taowood/android_kernel_xiaomi_sm8350" revision="lineage-21" clone-depth="1" />
-	<project path="vendor/xiaomi/sm8350-common" remote="github" name="redyao-taowood/proprietary_vendor_xiaomi_sm8350-common" revision="lineage-21" />
-	<project path="vendor/xiaomi/taoyao" remote="github" name="redyao-taowood/proprietary_vendor_xiaomi_taoyao" revision="lineage-21-dev" />
-  	<project path="device/xiaomi/sm8350-common" remote="github" name="LineageOS/android_device_xiaomi_sm8350-common" revision="lineage-21" />
-  	<project path="device/xiaomi/taoyao-kernel" remote="github" name="redyao-taowood/android_device_xiaomi_taoyao-kernel" revision="5.4.233" />
-  	<project path="device/xiaomi/taoyao" remote="github" name="redyao-taowood/android_device_xiaomi_taoyao" revision="lineage-21-dev" />
-  	<project path="hardware/xiaomi" remote="github" name="redyao-taowood/android_hardware_xiaomi" revision="lineage-21" />
-  	<project path="vendor/gapps" remote="gitlab" name="MindTheGapps/vendor_gapps" revision="upsilon" />
+	<project path="kernel/xiaomi/sm8350" remote="github-non-los" name="redyao-taowood/android_kernel_xiaomi_sm8350" revision="lineage-21" clone-depth="1" />
+	<project path="vendor/xiaomi/camera" remote="github-non-los" name="redyao-taowood/vendor_xiaomi_camera_dkpost3" revision="udc" />
+	<project path="vendor/xiaomi/dolby" remote="github-non-los" name="redyao-taowood/vendor_xiaomi_dolby_dkpost3" revision="udc" />
+	<project path="vendor/xiaomi/taoyao" remote="github-non-los" name="redyao-taowood/vendor_xiaomi_taoyao_dkpost3" revision="udc" />
+  	<project path="device/xiaomi/taoyao-kernel" remote="github-non-los" name="redyao-taowood/device_xiaomi_taoyao-kernel_dkpost3" revision="udc" />
+  	<project path="device/xiaomi/taoyao" remote="github-non-los" name="redyao-taowood/device_xiaomi_taoyao_dkpost3" revision="udc" />
+  	<project path="hardware/qcom-caf/sm8350/display" remote="github-non-los" name="Evolution-XYZ/hardware_qcom-caf_sm8350_display" revision="udc" />
+  	<project path="hardware/xiaomi" remote="github-non-los" name="Evolution-X/hardware_xiaomi" revision="udc" />
 </manifest>
