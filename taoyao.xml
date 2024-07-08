@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="github-ssh" fetch="ssh://git@github.com" />
 	<remove-project path="hardware/qcom-caf/sm8350/display" />
 
-	<project path="kernel/xiaomi/sm8350" remote="github-non-los" name="redyao-taowood/android_kernel_xiaomi_sm8350" revision="lineage-21" clone-depth="1" />
-	<project path="vendor/xiaomi/camera" remote="github-non-los" name="redyao-taowood/vendor_xiaomi_camera_dkpost3" revision="udc" />
-	<project path="vendor/xiaomi/dolby" remote="github-non-los" name="redyao-taowood/vendor_xiaomi_dolby_dkpost3" revision="udc" />
-	<project path="vendor/xiaomi/taoyao" remote="github-non-los" name="redyao-taowood/vendor_xiaomi_taoyao_dkpost3" revision="udc" />
-  	<project path="device/xiaomi/taoyao-kernel" remote="github-non-los" name="redyao-taowood/device_xiaomi_taoyao-kernel_dkpost3" revision="udc" />
-  	<project path="device/xiaomi/taoyao" remote="github-non-los" name="redyao-taowood/device_xiaomi_taoyao_dkpost3" revision="udc" />
+	<project path="kernel/xiaomi/sm8350" remote="github-ssh" name="redyao-taowood/android_kernel_xiaomi_sm8350" revision="lineage-21" clone-depth="1" />
+	<project path="vendor/xiaomi/camera" remote="github-ssh" name="redyao-taowood/vendor_xiaomi_camera_dkpost3" revision="udc" />
+	<project path="vendor/xiaomi/dolby" remote="github-ssh" name="redyao-taowood/vendor_xiaomi_dolby_dkpost3" revision="udc" />
+	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="redyao-taowood/vendor_xiaomi_taoyao_dkpost3" revision="udc" />
+  	<project path="device/xiaomi/taoyao-kernel" remote="github-ssh" name="redyao-taowood/device_xiaomi_taoyao-kernel_dkpost3" revision="udc" />
+  	<project path="device/xiaomi/taoyao" remote="github-ssh" name="redyao-taowood/device_xiaomi_taoyao_dkpost3" revision="udc" />
   	<project path="hardware/qcom-caf/sm8350/display" remote="github-non-los" name="Evolution-XYZ/hardware_qcom-caf_sm8350_display" revision="udc" />
   	<project path="hardware/xiaomi" remote="github-non-los" name="Evolution-X/hardware_xiaomi" revision="udc" />
 </manifest>
