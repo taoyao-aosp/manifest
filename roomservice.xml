@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github-ssh" fetch="ssh://git@github.com" />
+	<remote name="codeberg" fetch="https://codeberg.org" />
+
+	<!-- Taoyao -->
+	<!-- <project path="hardware/dolby" remote="github-ssh" name="richardqcarvalho/hardware_dolby" revision="fourteen" />
+	<project path="hardware/xiaomi" remote="github" name="richardqcarvalho/hardware_xiaomi" revision="lineage-21" />
+	<project path="kernel/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/kernel_xiaomi_taoyao" revision="taoyao-s-oss" clone-depth="1" />
+	<project path="kernel/xiaomi/taoyao/arch/arm64/boot/dts/vendor" remote="github" name="MiCode/kernel_devicetree" revision="taoyao-s-oss" />
+	<project path="vendor/xiaomi/camera" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_camera" revision="fourteen" />
+	<project path="vendor/xiaomi/dolby" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_dolby" revision="fourteen" />
+	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="fourteen" />
+  	<project path="device/xiaomi/taoyao-kernel" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao-kernel" revision="fourteen" />
+  	<project path="device/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao" revision="fourteen" /> -->
+
+	<!-- Garnet -->
+  	<project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" />
+  	<project path="device/xiaomi/garnet-prebuilt" remote="github-ssh" name="richardqcarvalho/device_xiaomi_garnet-prebuilt" revision="udc" />
+  	<project path="device/xiaomi/garnet" remote="github-ssh" name="richardqcarvalho/device_xiaomi_garnet" revision="udc" />
+  	<project path="vendor/xiaomi/garnet-miuicamera" remote="codeberg" name="Coptan99/vendor_xiaomi_garnet-miuicamera" revision="lineage-21" clone-depth="1" />
+  	<project path="vendor/xiaomi/garnet" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_garnet" revision="udc" />
+</manifest>
