@@ -2,13 +2,12 @@
 <manifest>
 	<remote name="github" fetch="https://github.com" />
 	<remote name="github-ssh" fetch="ssh://git@github.com" />
-	<remote name="clo" fetch="https://git.codelinaro.org/clo/la" />
 
-	<project path="kernel/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/kernel_xiaomi_taoyao" revision="taoyao-s-oss" clone-depth="1" />
+	<project path="kernel/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/kernel_xiaomi_sm8350" revision="fifteen" clone-depth="1" />
 	<project path="kernel/xiaomi/taoyao/arch/arm64/boot/dts/vendor" remote="github" name="MiCode/kernel_devicetree" revision="taoyao-s-oss" />
-  	<project path="device/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao" revision="taoyao-s-oss" />
-
-  	<project path="tools/extract-utils" remote="github" name="LineageOS/android_tools_extract-utils" revision="lineage-21.0" />
-
-	<project path="hardware/qcom/bootctrl" remote="clo" name="platform/hardware/qcom/bootctrl" revision="android-core.lnx.6.0.r3-rel" />
+	<project path="device/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao" revision="dev" />
+	
+	<project path="device/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/device_xiaomi_sm8350-common" revision="fifteen" />
+	<project path="vendor/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/vendor_xiaomi_sm8350-common" revision="fifteen" />
+	<project path="hardware/xiaomi" remote="github" name="PixelOS-AOSP/hardware_xiaomi" revision="fifteen" />
 </manifest>
