@@ -8,8 +8,7 @@
 	<project path="hardware/xiaomi" remote="github-ssh" name="richardqcarvalho/hardware_xiaomi" revision="fifteen" />
 	<project path="kernel/xiaomi/sm8350" remote="github-ssh" name="richardqcarvalho/kernel_xiaomi_sm8350" revision="fifteen" clone-depth="1" />
 	<project path="kernel/xiaomi/sm8350/arch/arm64/boot/dts/vendor" remote="github" name="MiCode/kernel_devicetree" revision="taoyao-s-oss" />
+	<project path="prebuilts-master/clang/host/linux-x86/clang-r383902b1" remote="github" name="sir990928/android_prebuilts_clang_host_linux-x86_clang-r383902b1" revision="main" />
 	<project path="vendor/xiaomi/sm8350-common" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_sm8350-common" revision="fifteen" />
 	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="fifteen" />
-
-	<project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="refs/tags/android-11.0.0_r48" />
 </manifest>
