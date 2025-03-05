@@ -11,7 +11,5 @@
 	<project path="vendor/xiaomi/sm8350-common" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_sm8350-common" revision="fifteen" />
 	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="fifteen" />
 
-	<project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="refs/tags/android-11.0.0_r48" clone-depth="1" />
 	<project path="prebuilts-master/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="refs/tags/android-11.0.0_r48" clone-depth="1" />
-	<project path="prebuilts-master/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="refs/tags/android-11.0.0_r0.100" clone-depth="1" />
 </manifest>
