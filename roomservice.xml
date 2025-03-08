@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="hardware/xiaomi" remote="github-non-los" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" />
-	<project path="kernel/xiaomi/sm8350" remote="github-non-los" name="crdroidandroid/android_kernel_xiaomi_sm8350" revision="15.0-redwood" clone-depth="1" />
-	<project path="prebuilts-master/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="private" name="richardqcarvalho/prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" revision="android-12.1.0_r27" clone-depth="1" />
-	<project path="vendor/xiaomi/sm8350-common" remote="github-non-los" name="crdroidandroid/proprietary_vendor_xiaomi_sm8350-common" revision="15.0" />
-	<project path="vendor/xiaomi/taoyao" remote="private" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="vic" />
+	<remote name="github" fetch="https://github.com" />
+	<remote name="github-ssh" fetch="ssh://git@github.com" />
+
+	<project path="device/xiaomi/sm8350-common" remote="github-ssh" name="richardqcarvalho/device_xiaomi_sm8350-common" revision="fifteen" />
+	<project path="device/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao" revision="fifteen" />
+	<project path="hardware/xiaomi" remote="github-ssh" name="richardqcarvalho/hardware_xiaomi" revision="fifteen" />
+	<project path="kernel/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/kernel_xiaomi_taoyao" revision="taoyao-s-oss" clone-depth="1" />
+	<project path="kernel/xiaomi/taoyao/arch/arm64/boot/dts/vendor" remote="github" name="MiCode/kernel_devicetree" revision="taoyao-s-oss" clone-depth="1" />
+	<project path="vendor/xiaomi/sm8350-common" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_sm8350-common" revision="fifteen" />
+	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="fifteen" />
 </manifest>
