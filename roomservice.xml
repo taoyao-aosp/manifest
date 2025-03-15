@@ -8,7 +8,44 @@
 	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="fifteen" />
 
 	<project path="device/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/device_xiaomi_sm8350-common" revision="fifteen" />
-	<project path="hardware/xiaomi" remote="github" name="PixelOS-AOSP/hardware_xiaomi" revision="fifteen" />
+	<project path="hardware/xiaomi" remote="github" name="PixelOS-AOSP/hardware_xiaomi" revision="5ccd168e0ba6068fbbf5c98dcd4cf67e38c0cce2" />
 	<project path="kernel/xiaomi/sm8350" remote="github" name="PixelOS-Devices/kernel_xiaomi_sm8350" revision="fifteen" clone-depth="1" />
 	<project path="vendor/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/vendor_xiaomi_sm8350-common" revision="fifteen" />
+
+	<remove-project name="bionic" />
+	<project path="bionic" name="bionic" groups="pdk" remote="PixelOS" revision="26add4d0a49c881c414eed2d8dcd345817f5e855" />
+	<remove-project name="bootable_recovery" />
+	<project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="PixelOS" revision="468b588a866587a65739459a762e20b86c0f8b99" />
+	<remove-project name="build" />
+	<project path="build/make" name="build" groups="pdk,sysui-studio" remote="PixelOS" revision="a629a72686d2bb4ad0170ef7d65ffbb0f991c7ab">
+		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+		<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+		<linkfile src="core" dest="build/core" />
+		<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+		<linkfile src="target" dest="build/target" />
+		<linkfile src="tools" dest="build/tools" />
+	</project>
+	<remove-project name="build_soong" />
+	<project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="PixelOS" revision="53dfd1e7998a25aecc06a894bba3df73960f1b9b">
+		<linkfile src="root.bp" dest="Android.bp" />
+		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+	</project>
+	<remove-project name="frameworks_av" />
+	<project path="frameworks/av" name="frameworks_av" groups="pdk" remote="PixelOS" revision="9148fd188178512ab92b83633db2fd311560b7b1" />
+	<remove-project name="frameworks_base" />
+	<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PixelOS" revision="d57664e9bc4670b3ecf6748a746a57c557b6bc9e" />
+	<remove-project name="frameworks_native" />
+	<project path="frameworks/native" name="frameworks_native" groups="pdk" remote="PixelOS" revision="38e8c45f13ce32b0dcecb25141ffecaf386fa17f" />
+	<remove-project name="packages_apps_Settings" />
+	<project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="PixelOS" revision="00893e4540a114a226ef4b4a5d586d2df7a707bc" />
+	<remove-project name="packages_modules_Connectivity" />
+	<project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="PixelOS" revision="64cd443febd3ee0fd5c90b47089d82b96850c1e9" />
+	<remove-project name="packages_services_Telecomm" />
+	<project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelOS" revision="4d638b5d59dd83984817123589f4811bf5e7d61d" />
+	<remove-project name="system_core" />
+	<project path="system/core" name="system_core" groups="pdk" remote="PixelOS" revision="be2ea35cb1cb3098f20a788b76ce6fb1a82579cd" />
+	<remove-project name="packages_apps_ParanoidSense" />
+	<project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" revision="c85a921592ff424f0d8135c8e627d00384a64ab8" />
+	<remove-project name="vendor_aosp" />
+	<project path="vendor/aosp" name="vendor_aosp" remote="PixelOS" revision="f62e5a56056f640f793be4c5e673fc06e4e90bd8" />
 </manifest>
