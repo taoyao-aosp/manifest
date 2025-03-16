@@ -4,7 +4,7 @@
 	<remote name="github-ssh" fetch="ssh://git@github.com" />
 
 	<project path="device/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao" revision="fifteen" />
-	<project path="device/xiaomi/taoyao-kernel" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao-kernel" revision="5.4.259" />
+	<project path="device/xiaomi/taoyao-kernel" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao-kernel" revision="5.4.274" />
 	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="fifteen" />
 
 	<project path="device/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/device_xiaomi_sm8350-common" revision="fifteen" />
