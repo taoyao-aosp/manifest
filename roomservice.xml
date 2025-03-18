@@ -5,10 +5,10 @@
 
 	<project path="device/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao" revision="fifteen" />
 	<project path="device/xiaomi/taoyao-kernel" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao-kernel" revision="5.4.274" />
-	<project path="kernel/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/kernel_xiaomi_taoyao" revision="taoyao-s-oss" clone-depth="1" />
 	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="fifteen" />
 
 	<project path="device/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/device_xiaomi_sm8350-common" revision="fifteen" />
 	<project path="hardware/xiaomi" remote="github" name="PixelOS-AOSP/hardware_xiaomi" revision="fifteen" />
+	<project path="kernel/xiaomi/sm8350" remote="github" name="PixelOS-Devices/kernel_xiaomi_sm8350" revision="fifteen" clone-depth="1" />
 	<project path="vendor/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/vendor_xiaomi_sm8350-common" revision="fifteen" />
 </manifest>
