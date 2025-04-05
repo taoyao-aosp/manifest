@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="github" fetch="https://github.com" />
-	<remote name="github-ssh" fetch="ssh://git@github.com" />
+	<remote
+		name="personal"
+		fetch="ssh://git@github.com/richardqcarvalho"
+		revision="fifteen"
+	/>
 
-	<project path="device/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/device_xiaomi_taoyao" revision="fifteen" />
-	<project path="kernel/xiaomi/sm8350" remote="github-ssh" name="richardqcarvalho/kernel_xiaomi_sm8350" revision="fifteen" clone-depth="1" />
-	<project path="vendor/xiaomi/taoyao" remote="github-ssh" name="richardqcarvalho/vendor_xiaomi_taoyao" revision="fifteen" />
-
-	<project path="device/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/device_xiaomi_sm8350-common" revision="fifteen" />
-	<project path="hardware/xiaomi" remote="github" name="PixelOS-AOSP/hardware_xiaomi" revision="fifteen" />
-	<project path="vendor/xiaomi/sm8350-common" remote="github" name="PixelOS-Devices/vendor_xiaomi_sm8350-common" revision="fifteen" />
+	<project path="device/xiaomi/taoyao-kernel" name="device_xiaomi_taoyao-kernel" remote="personal" />
+	<project path="device/xiaomi/taoyao" name="device_xiaomi_taoyao" remote="personal" />
+	<project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS" />
+	<project path="kernel/xiaomi/sm8350" name="kernel_xiaomi_sm8350" clone-depth="1" remote="personal" />
+	<project path="vendor/xiaomi/taoyao" name="vendor_xiaomi_taoyao" remote="personal" />
 </manifest>
