@@ -6,9 +6,8 @@
 		revision="fifteen"
 	/>
 
-	<project path="device/xiaomi/taoyao-kernel" name="device_xiaomi_taoyao-kernel" remote="personal" />
 	<project path="device/xiaomi/taoyao" name="device_xiaomi_taoyao" remote="personal" />
 	<project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelOS" />
-	<project path="kernel/xiaomi/sm8350" name="kernel_xiaomi_sm8350" clone-depth="1" remote="personal" />
+	<project path="kernel/xiaomi/sm8350" name="kernel_xiaomi_sm8350" clone-depth="9" remote="personal" />
 	<project path="vendor/xiaomi/taoyao" name="vendor_xiaomi_taoyao" remote="personal" />
 </manifest>
