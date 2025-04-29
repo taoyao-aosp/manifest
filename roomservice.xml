@@ -7,7 +7,7 @@
 	/>
 
 	<project path="device/xiaomi/taoyao" name="device_xiaomi_taoyao" remote="personal" />
-	<project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo-devices" />
+	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
 	<project path="kernel/xiaomi/taoyao" name="kernel_xiaomi_taoyao" remote="personal" />
 	<project path="vendor/xiaomi/taoyao" name="vendor_xiaomi_taoyao" remote="personal" />
 </manifest>
