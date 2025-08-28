@@ -2,6 +2,7 @@
 <manifest>
 	<project path="device/xiaomi/taoyao" name="taoyao-aosp/device_xiaomi_taoyao" remote="github-non-los" revision="bka" />
 	<project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo-devices" />
+	<project path="hardware/dolby" name="taoyao-aosp/hardware_dolby" remote="github-non-los" revision="moto-1.0" />
 	<project path="kernel/xiaomi/taoyao" name="richardqcarvalho/kernel_xiaomi_taoyao" remote="github-non-los" revision="bka" />
 	<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="evo-devices" />
 	<project path="vendor/xiaomi/taoyao" name="richardqcarvalho/vendor_xiaomi_taoyao" remote="github-non-los" revision="bka" />
